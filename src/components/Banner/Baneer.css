@@ -1,0 +1,81 @@
+.banner-root{
+    display: flex;
+    flex-direction: column;
+    padding:3.75rem 4.875rem 3.125rem 3.75rem;
+    background: #000000;
+    border-radius: 1.875rem;
+    max-width:17.5rem;
+    overflow:hidden;
+}
+
+.banner-title{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 2.25rem;
+line-height: 2.75rem;
+color: #FFFFFF;
+}
+
+.banner-navigation{
+    display: flex;
+    flex-direction: column;
+    gap:2.5rem; 
+    margin-top: 3.75rem;
+}
+
+.banner-tab{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 1.125rem;
+line-height: 1.375rem;
+color: #FFFFFF;
+}
+
+.active-tab{
+    font-weight:700;
+}
+
+.banner-footer{
+    display: flex;
+    flex-direction: column;
+    gap:1.25rem; 
+    margin-top: 24.75rem;
+}
+
+.banner-footer-tab{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 0.875rem;
+line-height: 1.0625rem;
+color: #FFFFFF;
+}
+
+@media only screen and (max-width: 920px) {
+    .banner-root{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        align-items: flex-start;
+        width:100%;
+        max-width:100%;
+        padding:1.875rem;
+    }
+    .banner-footer{
+        margin-top: 2.5rem;
+    }
+    .banner-navigation{
+        margin-top:0px;
+    }
+    .banner-footer{
+        margin-top:0px;
+    }
+    .banner-title{
+    width:100%;
+    text-align:center;
+    margin-bottom:1.875rem;
+    }
+ }

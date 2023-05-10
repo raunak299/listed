@@ -1,0 +1,85 @@
+.dashboard-root{
+    width:100%;
+    min-height:100vh;
+    background:#DDDDDD;
+    display: flex;
+    justify-content: center;
+    cursor:pointer;
+}
+
+.dashboard-page-container{
+    display: flex;
+    width:100%;
+    margin:2.5rem;
+}
+
+.dashboard-page-banner{
+    width:20vw;
+    margin-right:3.75rem;
+    max-width: 17.5rem;
+}
+
+.dashboard-page-main{
+    width:70vw;
+}
+
+.dashboard-page-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:100%;
+    gap:2.5rem;
+}
+
+.dashboard-data-page-cards{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:2.25rem;
+}
+
+.dashboard-page-data-chart{
+    width:100%;
+}
+
+.dashboard-product-schedule-cards{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    gap:2.5rem;
+}
+
+.dashboard-page-products-card,
+.dashboard-page-schedule-card{
+    width:50%;
+}
+
+@media only screen and (max-width: 1200px) {
+    /* For mobile phones: */
+.dashboard-product-schedule-cards{
+    flex-direction: column;
+}
+.dashboard-page-products-card,
+.dashboard-page-schedule-card{
+   width:100%;
+}
+}
+
+ @media only screen and (max-width: 920px) {
+    .dashboard-page-container{
+      flex-direction:column;
+      gap:3.75rem;
+    }
+    .dashboard-page-banner{
+        width:100%;
+        max-width: 100%;
+        margin-right:0rem;
+    }
+    
+    .dashboard-page-main{
+        width:95%;
+        max-width:95%;
+    }
+    
+ }

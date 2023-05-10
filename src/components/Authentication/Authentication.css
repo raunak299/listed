@@ -1,0 +1,189 @@
+
+.auth-root{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor:pointer;
+}
+
+.auth-banner{
+    min-height:100vh;
+    max-width: 584px;
+    width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 88px;
+color: #FFFFFF;
+background:#000000;
+}
+
+.register-card-root{
+    min-height:100vh;
+    max-width:852px;
+    width:60%;
+    background:#F5F5F5;
+    display:flex;
+    justify-content: center;
+}
+
+.register-card{
+    width:385px;
+    display:flex;
+    height:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-card-title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+color: #000000;
+width:100%;
+}
+
+.register-card-subTitle{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 4px;
+    color: #000000; 
+    width:100%; 
+}
+
+.external-register-btn{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    margin-top:24px;
+}
+
+.register-form{
+    padding:30px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    width:100%;
+}
+
+.form-field{
+display: flex;
+width:100%;
+flex-direction:column;
+}
+
+.form-field  >label{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px; 
+    color: #000000;
+    width:100%;
+}
+
+.form-field > input {
+outline:none;
+background: #F5F5F5;
+border-radius: 10px;
+border:none;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+margin-top: 10px;
+height:40px;
+padding:15px 10px;
+width:100%;
+}
+
+.sign-in-btn{
+    border:none;
+    background: #000000;
+border-radius: 10px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+height:40px;
+}
+
+.forget-password{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #346BD5;
+}
+
+.no-account{
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #858585;
+margin-top:20px; 
+}
+
+.no-account > span {
+    color: #346BD5;
+}
+
+.external-register-btn{
+    margin-bottom:26px;
+}
+
+.external-register-btn > button {
+    background: #FFFFFF;
+    border-radius: 10px;
+    border:none;
+    padding:18px 19px;
+    height:30px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #858585;
+}
+
+.external-register-btn > button > img {
+padding-right:10px;
+}
+
+
+@media only screen and (max-width: 786px) {
+.auth-banner{
+    max-width: 100%;
+    width:100%;
+    min-height:30vh;
+}
+.register-card-root{
+    max-width: 100%;
+    width:100%;
+    min-height:70vh;
+}
+}

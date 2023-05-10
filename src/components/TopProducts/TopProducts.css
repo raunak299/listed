@@ -1,0 +1,108 @@
+.top-products-root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.875rem 2.625rem 2.125rem 2.5rem;
+    background: #ffffff;
+    border-radius: 1.25rem;
+    max-width:30rem;
+}
+
+.top-products-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top-products-title{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #000000;
+}
+
+.top-products-calender{
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.0625rem;
+        color: #858585;
+        margin-top: 0.25rem;
+}
+
+.top-products-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1.375rem;
+}
+
+.top-product-piechart{
+    margin-right:2.75rem;
+}
+
+.top-products-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.top-product-info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.25rem;
+}
+
+.top-products-details > div:nth-child(1){
+    margin-top: 0rem;;
+}
+
+.info-tiltle-percent{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+.indicator{
+   min-width: 0.6875rem;
+height: 0.6875rem;
+background:black;
+border-radius:50%;
+margin-right:0.625rem;
+}
+
+.indicator-info1{
+    background:#98D89E;
+}
+
+.indicator-info2{
+    background:#F6DC7D;;
+}
+
+.indicator-info3{
+    background:#EE8484;
+}
+
+.info-title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 0.875rem;
+line-height: 1.0625rem;
+color: #000000;
+}
+
+.info-percent{   
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 0.75rem;
+line-height: 0.875rem;
+color: #858585;
+}
+

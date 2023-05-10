@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1.875rem 2.5rem 1.625rem 2.5rem;
+  background: #ffffff;
+  border-radius: 1.25rem;
+}
+
+.recharts-responsive-container {
+  margin-top: 1.875rem;
+}
+
+.recharts-cartesian-axis-line {
+  display: none;
+}
+.recharts-cartesian-grid-vertical {
+  display: none;
+}
+
+.recharts-cartesian-grid-horizontal > line {
+  stroke: #eaeaea;
+  stroke-dasharray: unset;
+}
+.recharts-cartesian-axis-ticks {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  color: #858585;
+}
+.recharts-cartesian-axis-ticks line {
+  display: none;
+}
+.recharts-line > path {
+  stroke-width: 3;
+}
